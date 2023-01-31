@@ -1,0 +1,11 @@
+Logge inn i IFI: ssh parkavai@login.ifi.uio.no
+
+
+Film-database:
+psql -h dbpg-ifi-kurs01 -U parkavai -d fdb
+
+Northwind-database
+psql -h dbpg-ifi-kurs01 -U parkavai -d northwind
+
+Logge inn fra samme mappe:
+psql -h dbpg-ifi-kurs01 -U parkavai
